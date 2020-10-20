@@ -9,7 +9,6 @@ class Node(Structure):
     def __lt__(self, other):
         return self.d < other.d
 road=[Node() for i in range(1000)]
-print(road[0].a)
 ch = [Node() for i in range(1000)]
 def small(a,b):
     return a.d < b.d
