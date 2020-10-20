@@ -1,6 +1,6 @@
 # C_Convert_Python
 C++  convert to Python
-
+:heavy_exclamation_mark:為避免格式跑掉請點擊右方連結開啟
 ## <font color="#EE5151">題目說明</font>:
 ![PROBLEM](https://upload.cc/i1/2020/10/21/yfFo0C.png)  
 ---
