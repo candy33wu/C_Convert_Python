@@ -6,11 +6,11 @@ struct Node {
 	bool operator<(Node b) {
 		return d < b.d;
 	}
-}road[200001],ch[200001];
+}road[100],ch[100];
 bool small(Node a,Node b) {
 	return a.d < b.d;
 }
-int parent[200001], T, X;
+int parent[100], T, X;
 int find(int a) { return a == parent[a] ? a : (parent[a] = find(parent[a])); }//find root
 void Union(int a, int b) {
 	parent[find(a)] = find(b);
