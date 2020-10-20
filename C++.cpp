@@ -22,7 +22,7 @@ int cost(int choseNum,int t) {
 	}
 	return sum/t+t*X;
 }
-void t(int choseNum) {
+void t(int choseNum) {//é­”æ³•è¨­å‚™ç­‰ç´š
 	int min = cost(choseNum, 1);
 	int t = 1;
 	for (int i = 2; i < T; ++i) {
@@ -39,13 +39,13 @@ void kruskal(int n, int m) {
 
 	sort(road, road + m,small);
 	int choseNum = 0;
-	//¶]¶W¹Ln-1ªí¹Ï¦³cycle¡A¨Ì§Ç§ä¥X³Ì¤p¥Í¦¨¾ð¤WªºV-1±øÃä
+	//è·‘è¶…éŽn-1è¡¨åœ–æœ‰cycleï¼Œä¾åºæ‰¾å‡ºæœ€å°ç”Ÿæˆæ¨¹ä¸Šçš„V-1æ¢é‚Š
 	for (int i = 0, j = 0; i < m && j < n - 1; i++, j++)//i: edge,j: node
 	{
-		//cycle ¤£­n(¤w³s¦b¤@°_¤£­n)
+		//cycle ä¸è¦(å·²é€£åœ¨ä¸€èµ·ä¸è¦)
 		while (find(road[i].a) == find(road[i].b))
 			i++;
-		//§âa tree,b tree¦ê¨ì¤@°_
+		//æŠŠa tree,b treeä¸²åˆ°ä¸€èµ·
 		Union(road[i].a, road[i].b);
 		ch[choseNum] = road[i];
 		choseNum++;
