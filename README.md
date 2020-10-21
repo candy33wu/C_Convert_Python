@@ -2,7 +2,7 @@
 C++  convert to Python
 
 :heavy_exclamation_mark:為避免格式跑掉請點擊右方HackMD連結開啟
-[HackMD](http://www.google.com/)
+[HackMD](https://hackmd.io/@iGHln3yKSUSg7eK_GhORNw/SkXBQ3hPv)
 ## <font color="#EE5151">題目說明</font>:
 ![PROBLEM](https://upload.cc/i1/2020/10/21/yfFo0C.png)  
 ---
