@@ -1,6 +1,7 @@
 # C_Convert_Python
 C++  convert to Python
-:heavy_exclamation_mark:為避免格式跑掉請點擊右方連結開啟
+
+:heavy_exclamation_mark:為避免格式跑掉請點擊右方HackMD連結開啟
 ## <font color="#EE5151">題目說明</font>:
 ![PROBLEM](https://upload.cc/i1/2020/10/21/yfFo0C.png)  
 ---
@@ -9,7 +10,7 @@ C++  convert to Python
 	Step2. 首先將所有的邊，依照權重的大小排序。
 	Step3. 取最小邊加入，放入若產生cycle，則捨棄，依序找出最小生成樹上的n-1條邊(n個Node時)
 ### 演算法程式碼實作 : 
-==C++==
+__C++__
 #### <font color="#F5AC54">Step1.初始創建森林</font>
 - <font color="#4DA3E3">連接之通道</font>
 ![NODE](https://upload.cc/i1/2020/10/21/ztoInT.png)  
@@ -38,7 +39,7 @@ C++  convert to Python
 - <font color="#4DA3E3">串聯兩樹</font>
 ![UNION](https://upload.cc/i1/2020/10/21/jztMWf.png)  
 ---
-==Python==
+__Python__
 #### <font color="#F5AC54">Step1.初始創建森林</font> (使用ctypes模組)
 - <font color="#4DA3E3">連接之通道</font>
 ![NODE](https://upload.cc/i1/2020/10/21/957Omh.png
